@@ -3,7 +3,7 @@ import java.util.Currency;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class JavaCurrencyFormatter {
+public class CurrencyFormatter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double payment = scanner.nextDouble();

@@ -2,10 +2,8 @@ package string;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 
-import static strings.JavaSubstringComparisons.getSmallestAndLargest;
+import static strings.SubstringComparisons.getSmallestAndLargest;
 
 /**
  * JavaSubstringComparisons Tester.
@@ -14,7 +12,7 @@ import static strings.JavaSubstringComparisons.getSmallestAndLargest;
  * @version 1.0
  * @since <pre>nov 15, 2019</pre>
  */
-public class JavaSubstringComparisonsTest {
+public class SubstringComparisonsTest {
 
     /**
      * Method: getSmallestAndLargest(String s, int k)

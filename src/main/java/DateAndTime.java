@@ -26,7 +26,7 @@ class Result {
 
 }
 
-public class JavaDateAndTime {
+public class DateAndTime {
     public static void main(String[] args) throws IOException {
         System.setProperty("OUTPUT_PATH", "C:\\Users\\lferracini\\IdeaProjects\\challenges\\data.txt");
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

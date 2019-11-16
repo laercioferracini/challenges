@@ -2,7 +2,7 @@ package strings;
 
 import java.util.Scanner;
 
-public class JavaSubstring {
+public class Substring {
     public static void main(String[] args) {
 
 

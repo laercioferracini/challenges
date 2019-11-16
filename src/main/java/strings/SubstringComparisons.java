@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class JavaSubstringComparisons {
+public class SubstringComparisons {
 
     public static String getSmallestAndLargest(String s, int k) {
         String smallest = "";
