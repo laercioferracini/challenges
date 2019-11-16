@@ -5,7 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Arrays_DS {
+public class Arrays_DS_ReverseArray {
     // Complete the reverseArray function below.
     static int[] reverseArray(int[] a) {
         int[] reverseArray = new int[a.length];

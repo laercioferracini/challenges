@@ -3,10 +3,9 @@ package arrays;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static arrays.Arrays_DS.reverseArray;
-import static org.junit.Assert.*;
+import static arrays.Arrays_DS_ReverseArray.reverseArray;
 
-public class Arrays_DSTest {
+public class Arrays_DSReverseArrayTest {
 
     @Test
     public void reverseArrayTest() {
