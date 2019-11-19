@@ -15,7 +15,7 @@ public class StringTokens {
 
     public static String dividirFrase(String s) {
         String fraseDividida = "";
-        String[] result = s.split(Pattern.compile("[_\\@!?.', ]").pattern());
+        String[] result = s.split(Pattern.compile("((\\s+)|([\\W])*(\\s|\\p{Punct}))").pattern());
         System.out.println(result.length);
         fraseDividida = String.valueOf(result.length).concat("\n");
 
