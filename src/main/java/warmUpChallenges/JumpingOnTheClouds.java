@@ -1,8 +1,5 @@
 package warmUpChallenges;
 
-import org.junit.Assert;
-import org.junit.Test;
-
 public class JumpingOnTheClouds {
     // Complete the jumpingOnClouds function below.
     public static int jumpingOnClouds(int[] c) {

@@ -1,13 +1,5 @@
 package warmUpChallenges;
 
-import org.junit.Assert;
-import org.junit.Test;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
-
 public class CountingValleys {
     private static final int seaLevel = 0;
 
@@ -24,12 +16,5 @@ public class CountingValleys {
             if (currentLevel == 0 && step[i] == 'U') ++valleys;
         }
         return valleys;
-    }
-
-    @Test
-    public void teste1() {
-        String s = "UDDDUDUU";
-        int result = countingValleys(s.length(), s);
-        Assert.assertEquals(1, result);
     }
 }

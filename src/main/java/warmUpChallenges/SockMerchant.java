@@ -1,15 +1,5 @@
 package warmUpChallenges;
 
-import org.junit.Assert;
-import org.junit.Test;
-
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 public class SockMerchant {
 
     // Complete the sockMerchant function below.
@@ -34,19 +24,5 @@ public class SockMerchant {
         System.out.println(pares);
         return pares;
 
-    }
-
-    @Test
-    public void teste1() {
-        int[] ar = {10, 20, 20, 10, 10, 30, 50, 10, 20};
-        int result = sockMerchant(ar.length, ar);
-        Assert.assertEquals(3, result);
-    }
-
-    @Test
-    public void teste2() {
-        int[] ar = {1, 1, 3, 1, 2, 1, 3, 3, 3, 3};
-        int result = sockMerchant(ar.length, ar);
-        Assert.assertEquals(4, result);
     }
 }
