@@ -5,6 +5,6 @@ package strings;
  * @project = challenges
  * @since <pre>20/11/2019</pre>
  */
-public class Regex_2_DuplicateWords {
+public class DuplicateWords {
 
 }
