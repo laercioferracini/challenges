@@ -1,5 +1,6 @@
 package strings;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.StringJoiner;
 import java.util.StringTokenizer;
@@ -15,11 +16,16 @@ public class StringTokens {
 
     public static String dividirFrase(String s) {
         String fraseDividida = "";
-        String[] result = s.split(Pattern.compile("((\\s+)|([\\W])*(\\s|\\p{Punct}))").pattern());
-        System.out.println(result.length);
-        fraseDividida = String.valueOf(result.length).concat("\n");
+        String[] result = s.split("((\\s+)|([\\W])*(\\s|\\p{Punct}))");
+        ArrayList<String> r = new ArrayList<>();
+        for (int i = 0; i<result.length;i++){
+            if (!result[i].equals(""))r.add(result[i]);
+        }
 
-        return fraseDividida + Arrays.stream(result)
+        System.out.println(r.size());
+        fraseDividida = String.valueOf(r.size()).concat("\n");
+
+        return fraseDividida + r.stream()
                 .flatMap(String::lines)
                 .collect(Collectors.joining("\n"));
     }
