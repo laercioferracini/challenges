@@ -55,19 +55,19 @@ public class MyCalculatorTestTest {
     }
 
     @Test
-    public void powerTest8() throws Exception {
+    public void powerTest8() {
         Exception exception = assertThrows(Exception.class, () -> ExceptionHandling.my_calculator.power(-1, 4));
         assertEquals("n or p should not be negative.", exception.getMessage());
     }
 
     @Test
-    public void powerTest9() throws Exception {
+    public void powerTest9() {
         Exception exception = assertThrows(Exception.class, () -> ExceptionHandling.my_calculator.power(2, -3));
         assertEquals("n or p should not be negative.", exception.getMessage());
     }
 
     @Test
-    public void powerTest10() throws Exception {
+    public void powerTest10() {
         Exception exception = assertThrows(Exception.class, () -> ExceptionHandling.my_calculator.power(-2, -2));
         assertEquals("n or p should not be negative.", exception.getMessage());
     }
@@ -93,7 +93,7 @@ public class MyCalculatorTestTest {
     }
 
     @Test
-    public void powerTest15() throws Exception {
+    public void powerTest15() {
         Exception exception = assertThrows(Exception.class, () -> ExceptionHandling.my_calculator.power(3, -3));
         assertEquals("n or p should not be negative.", exception.getMessage());
     }
