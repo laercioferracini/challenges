@@ -42,7 +42,6 @@
             <version>2.2-rc1</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>

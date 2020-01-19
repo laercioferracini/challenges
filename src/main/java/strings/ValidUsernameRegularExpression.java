@@ -12,7 +12,7 @@ public class ValidUsernameRegularExpression {
         /*
          * Write regular expression here.
          */
-        public static final String regularExpression = "([a-zA-Z][\\w]){8,30}";
+        public static final String regularExpression = "^(?=.{8,30}$)(?![_.0-9])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$";
     }
 
     private static final Scanner scan = new Scanner(System.in);
